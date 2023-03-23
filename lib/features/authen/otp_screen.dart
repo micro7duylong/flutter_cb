@@ -26,7 +26,8 @@ class _OtpScreenState extends State<OtpScreen> {
             child: SingleChildScrollView(
               child: Column(
                 children: [
-                  Text("Điền OTP vừa được gửi đến: ${SaveData.userPhoneNumb}"),
+                  Text(
+                      "Điền OTP code vừa được gửi đến: ${SaveData.userPhoneNumb}"),
                   SizedBox(
                     height: 20,
                     width: 20,
